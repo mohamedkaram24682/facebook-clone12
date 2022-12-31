@@ -1,0 +1,3180 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"crossorigin="anonymous"/>
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+  />
+    <title>Facebook</title>
+  </head>
+  <body class="bg-gray postion-relative">
+
+
+
+  
+
+
+
+    <!-- ================= Appbar ================= -->
+    <div
+      class="bg-white d-flex align-items-center fixed-top shadow  nav"
+      style="min-height: 56px; z-index: 5"
+    >
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <!-- search -->
+          <div class="col d-flex align-items-center">
+            <!-- logo -->
+            <i class="fab fa-facebook text-primary" style="font-size: 3rem"></i>
+            <!-- search bar -->
+            <div class="input-group ms-2" type="button">
+              <!-- mobile -->
+              <span
+                class="input-group-prepend d-lg-none"
+                id="searchMenu"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <div
+                  class="input-group-text bg-gray border-0 rounded-circle"
+                  style="min-height: 40px"
+                >
+                <i class="fas fa-search text-muted"></i>
+              </div>
+              </span>
+              <!-- desktop -->
+              <span
+                class="input-group-prepend d-none d-lg-block"
+                id="searchMenu"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <div
+                  class="input-group-text bg-gray border-0 rounded-pill"
+                  style="min-height: 40px; min-width: 230px"
+                >
+                  <i class="fas fa-search me-2 text-muted"></i>
+                  <p class="m-0 fs-7 text-muted">Search Facebook</p>
+                </div>
+              </span>
+              <!-- search menu -->
+              <ul
+                class="dropdown-menu overflow-auto border-0 shadow p-3"
+                aria-labelledby="searchMenu"
+                style="width: 20em; max-height: 600px"
+              >
+                <!-- search input -->
+                <li>
+                  <input
+                    type="text"
+                    class="rounded-pill border-0 bg-gray dropdown-item"
+                    placeholder="Search facebook..."
+                    autofocus
+                  />
+                </li>
+                <!-- search 1 -->
+                <li class="my-4">
+                  <div
+                    class="
+                      alert
+                      fade
+                      show
+                      dropdown-item
+                      p-1
+                      m-0
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                    role="alert"
+                  >
+                  <div class="d-flex align-items-center">
+                    <img
+                    src="https://source.unsplash.com/random/1"
+                    alt="avatar"
+                      class="rounded-circle me-2"
+                      style="width: 35px; height: 35px; object-fit: cover"
+                    />
+                    <p class="m-0"style="color: black;" ></p>Lorem ipsum</p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close p-0 m-0"
+                    data-bs-dismiss="alert"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </li>
+              <!-- search 2 -->
+              <li class="my-4">
+                <div
+                  class="
+                    alert
+                    fade
+                    show
+                    dropdown-item
+                    p-1
+                    m-0
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                  "
+                  role="alert"
+                  >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://source.unsplash.com/random/2"
+                      alt="avatar"
+                      class="rounded-circle me-2"
+                      style="width: 35px; height: 35px; object-fit: cover"
+                    />
+                    <p class="m-0" style="color: black;">Lorem ipsum</p>
+                  </div>
+                    <button
+                      type="button"
+                      class="btn-close p-0 m-0"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                </li>
+                <!-- search 3 -->
+                <li class="my-4">
+                  <div
+                    class="
+                      alert
+                      fade
+                      show
+                      dropdown-item
+                      p-1
+                      m-0
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                    role="alert"
+                  >
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://source.unsplash.com/random/3"
+                      alt="avatar"
+                      class="rounded-circle me-2"
+                      style="width: 35px; height: 35px; object-fit: cover"
+                    />
+                    <p class="m-0" style="color: black;">Lorem ipsum</p>
+                  </div>
+                    <button
+                      type="button"
+                      class="btn-close p-0 m-0"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    ></button>
+             
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- nav -->
+          <div class="col d-none d-xl-flex justify-content-center">
+            <!-- home -->
+            <div class="mx-4 nav__btn nav__btn-active">
+              <button type="button" class="btn px-4">
+                <i class="fas fa-home text-muted fs-4"></i>
+
+              </button>
+            </div>
+            <!-- market -->
+            <div class="mx-4 nav__btn">
+                <button type="button" class="btn px-4">
+                    <i class="fas fa-store text-muted fs-4"></i>
+
+                  </button>
+            </div>
+            <!-- group -->
+            <div class="mx-4 nav__btn">
+              <button type="button" class="btn px-4">
+                <i 
+                  type="button"
+                  class="position-relative fas fa-users text-muted fs-4"
+                >
+                <span
+                class="
+                  position-absolute
+                  top-0
+                  start-100
+                  translate-middle
+                  badge
+                  rounded-pill
+                  bg-danger
+                "
+                style="font-size: 0.5rem"
+              >
+                +10
+                <span class="visually-hidden"></span>
+              </span>
+                </i>
+              </button>
+            </div>
+            <!-- gaming -->
+            <div class="mx-4 nav__btn">
+              <button type="button" class="btn px-4">
+                <i class="fas fa-gamepad text-muted fs-4"></i>
+
+              </button>
+            </div>
+          </div>
+          <!-- menus -->
+          <div class="col d-flex align-items-center justify-content-end">
+            <!-- avatar -->
+            <div
+              class="align-items-center justify-content-center d-none d-xl-flex"
+            >
+              <img
+       
+              src="image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                class="rounded-circle me-2"
+                alt="avatar"
+                style="width: 38px; height: 38px; object-fit: cover"
+              />
+              <p class="m-0" style="color:var(--bg-color3);">user</p>
+            </div>
+            <!-- main menu -->
+            <div
+              class=" class
+              rounded-circle
+              p-1
+                bg-gray
+                d-flex
+                align-items-center
+                justify-content-center
+                mx-2
+              "
+              style="width: 38px; height: 38px"
+              type="button"
+              id="mainMenu"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-auto-close="outside"
+            >
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <!-- main menu dd -->
+            <ul
+              class="dropdown-menu border-0 shadow p-3 overflow-auto"
+              aria-labelledby="mainMenu"
+              style="width: 23em; max-height: 600px"
+            >
+              <!-- menu -->
+              <div class="div1">
+                <!-- header -->
+                <li class="p-1 mx-2">
+                  <h2 style="color: black;">Menu</h2>
+                </li>
+                <!-- search -->
+                <li class="p-1">
+                  <div
+                    class="div2 input-group-text bg-gray border-0 rounded-pill"
+                    style="min-height: 40px; min-width: 230px"
+                  >
+                    <i class="fas fa-search me-2 text-muted"></i>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border-0 bg-gray"
+                      placeholder="Search Menu"
+                    />
+                  </div>
+                </li>
+                <!-- social items -->
+                <h4 class="m-2" style="color: black;">Social</h4>
+                <!-- s1 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/Y7r38CcFEw5.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Campus</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- s2 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Events</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- s3 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/tSXYIzZlfrS.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Friends</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- s4 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/Im_0d7HFH4n.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Groups</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- s5 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/hLkEFzsCyXC.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">News Feed</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- s6 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/0gH3vbvr8Ee.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Pages</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <hr />
+                <!-- ent items -->
+                <h4 class="m-2">Entertainment</h4>
+                <!-- e1 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/Y7r38CcFEw5.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Campus</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- e2 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                    
+                      src="image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Events</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <!-- e3 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <div class="p-2">
+                      <img
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/tSXYIzZlfrS.png"
+                        alt="icon from fb"
+                        class="rounded-circle"
+                        style="width: 48px; height: 48px; object-fit: cover"
+                      />
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Friends</p>
+                      <span class="fs-7 text-muted"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, commodi.</span
+                      >
+                    </div>
+                  </a>
+                </li>
+              </div>
+              <hr/>
+              <!-- create -->
+              <div class="header">
+                <!-- header -->
+                <li class="p-1 mx-2">
+                  <h2 style="color: black;">Create</h2>
+                </li>
+                <!-- c-1 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-edit"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Post</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-2 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-book-open"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Story</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-3 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-video"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Video</p>
+                    </div>
+                  </a>
+                </li>
+                <hr />
+                <!-- c-4 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-flag"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Page</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-5 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Add</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-6 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-users"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Group</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-7-->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-book"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Event</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-8 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Marketplace Listing</p>
+                    </div>
+                  </a>
+                </li>
+                <!-- c-9 -->
+                <li class="my-2 p-1">
+                  <a
+                    href="#"
+                    class="
+                      text-decoration-none text-dark
+                      d-flex
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        rounded-circle
+                        bg-gray
+                        p-1
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        me-3
+                      "
+                      style="width: 38px; height: 38px"
+                    >
+                      <i class="fas fa-suitcase"></i>
+                    </div>
+                    <div>
+                      <p class="m-0" style="color: black;">Job</p>
+                    </div>
+                  </a>
+                </li>
+              </div>
+            </ul>
+            <!-- chat -->
+            <div
+              class="
+                rounded-circle div3
+                p-1
+                bg-gray
+                d-flex
+                align-items-center
+                justify-content-center
+                mx-2
+              "
+              style="width: 38px; height: 38px"
+              type="button"
+              id="chatMenu"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-auto-close="outside"
+            >
+            <i class="fas fa-comment"></i>
+          </div>
+            <!-- chat  dd -->
+            <ul
+              class="dropdown-menu border-0 shadow p-3 overflow-auto"
+              aria-labelledby="chatMenu"
+              style="width: 23em; max-height: 600px"
+            >
+              <!-- header -->
+              <li class="p-1">
+                <div class="d-flex justify-content-between">
+                  <h2 style="color: black;">Message</h2>
+                  <div>
+                    <!-- setting -->
+                    <i style="color:var(--bg-color3);"
+                      class="fas fa-ellipsis-h text-muted mx-2"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                    ></i>
+                    <!-- setting dd -->
+                    <ul class="dropdown-menu shadow" style="width: 18em">
+                      <!-- title -->
+                      <div class="p-2">
+                        <h5 style="color: black;">Chat Settings</h5>
+                        <span class="text-muted fs-7"
+                          >Customize your Messenger experience.</span
+                        >
+                      </div>
+                      <hr />
+                      <!-- incoming sound -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-phone-alt me-3" style="color: var(--bg-color3);"></i>
+                            <p class="m-0" style="color: black;">Incoming call sounds</p>
+                          </div>
+                          <!-- toggle -->
+                          <div class="form-check form-switch m-0">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              id="flexSwitchCheckChecked"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexSwitchCheckChecked"
+                            ></label>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- message sound -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-volume-off me-4 fs-4"></i>
+                            <p class="m-0" style="color: black;">Message sounds</p>
+                          </div>
+                          <!-- toggle -->
+                          <div class="form-check form-switch m-0">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              id="flexSwitchCheckChecked"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexSwitchCheckChecked"
+                            ></label>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- popup message -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-spinner me-3"></i>
+                            <p class="m-0">Pop-up new messages</p>
+                          </div>
+                          <!-- toggle -->
+                          <div class="form-check form-switch m-0">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              id="flexSwitchCheckChecked"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexSwitchCheckChecked"
+                            ></label>
+                          </div>
+                        </div>
+                        <span class="ms-5 text-muted fs-7"
+                          >Automatically open new messages.</span
+                        >
+                      </li>
+                      <hr class="m-0" />
+                      <!-- item 1 -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-toggle-off me-3"></i>
+                            <p class="m-0" style="color: black;">Turn Off Active Status</p>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- item 2 -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="far fa-comment-alt me-3"></i>
+                            <p class="m-0" style="color: black;">Message Request</p>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- item 3 -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-share-square me-3"></i>
+                            <p class="m-0" style="color: black;">Message delivery settings</p>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- item 4 -->
+                      <li>
+                        <div
+                          class="
+                            dropdown-item
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                          "
+                        >
+                          <!-- icon -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-shield-alt me-3"></i>
+                            <p class="m-0" style="color: black;">Block settings</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <i
+                      class="fas fa-expand-arrows-alt text-muted mx-2"
+                      type="button"
+                    ></i>
+                    <!-- new message -->
+                    <i
+                      class="fas fa-edit text-muted mx-2"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#newChat"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+              <!-- search -->
+              <li class="p-1">
+                <div
+                  class="input-group-text bg-gray border-0 rounded-pill"
+                  style="min-height: 40px; min-width: 230px"
+                >
+                  <i class="fas fa-search me-2 text-muted" style="color: black;"></i>
+                  <input
+                    type="text"
+                    class="form-control rounded-pill border-0 bg-gray"
+                    placeholder="Search Messenger"
+                  />
+                </div>
+              </li>
+              <!-- message 1 -->
+              <li
+                class="my-2 p-1"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#singleChat1"
+              >
+              <div class="d-flex align-items-center justify-content-between ">
+                <!-- big avatar -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                    src="image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">Mike</p>
+                    <span class="fs-7 text-muted"
+                      >Lorem ipsum &#8226; 7d</span
+                    >
+                  </div>
+                </div>
+                <!-- small avatar -->
+                <div class="p-2">
+                  <img
+                    src="https://source.unsplash.com/random/1"
+                    alt="avatar"
+                    class="rounded-circle"
+                    style="width: 15px; height: 15px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </li>
+            <!-- message 2 -->
+            <li
+              class="my-2 p-1"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#singleChat2"
+            >
+              <div class="d-flex align-items-center justify-content-between">
+                <!-- big avatar -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/2"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Tuan
+                      <span class="fs-7 text-muted"
+                        >Lorem ipsum &#8226; 7d</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- small avatar -->
+                <div class="p-2">
+                  <img
+                    src="https://source.unsplash.com/random/2"
+                    alt="avatar"
+                    class="rounded-circle"
+                    style="width: 15px; height: 15px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </li>
+            <!-- message 3 -->
+            <li
+              class="my-2 p-1"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#singleChat3"
+            >
+              <div class="d-flex align-items-center justify-content-between">
+                <!-- big avatar -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/3"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">Jerry</p>
+                    <span class="fs-7 text-muted"
+                      >Lorem ipsum &#8226; 7d</span
+                    >
+                  </div>
+                </div>
+                <!-- small avatar -->
+                <div class="p-2">
+                  <img
+                    src="https://source.unsplash.com/random/3"
+                    alt="avatar"
+                    class="rounded-circle"
+                    style="width: 15px; height: 15px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </li>
+            <!-- message 4 -->
+            <li
+              class="my-2 p-1"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#singleChat4"
+            >
+              <div class="d-flex align-items-center justify-content-between">
+                <!-- big avatar -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/4"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">Tony</p>
+                    <span class="fs-7 text-muted"
+                      >Lorem ipsum &#8226; 7d</span
+                    >
+                  </div>
+                </div>
+                <!-- small avatar -->
+                <div class="p-2">
+                  <img
+                    src="https://source.unsplash.com/random/4"
+                    alt="avatar"
+                    class="rounded-circle"
+                    style="width: 15px; height: 15px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </li>
+            <!-- message 5 -->
+            <li
+              class="my-2 p-1"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#singleChat5"
+            >
+              <div class="d-flex align-items-center justify-content-between">
+                <!-- big avatar -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/5"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">Phu</p>
+                    <span class="fs-7 text-muted"
+                      >Lorem ipsum &#8226; 7d</span
+                    >
+                  </div>
+                </div>
+                <!-- small avatar -->
+                <div class="p-2">
+                  <img
+                    src="https://source.unsplash.com/random/5"
+                    alt="avatar"
+                    class="rounded-circle"
+                    style="width: 15px; height: 15px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </li>
+            <hr class="m-0" />
+            <a href="#" class="text-decoration-none">
+              <p class="fw-bold text-center pt-3 m-0" style=" color: black;height: 70px;">See All in Messenger</p>
+            </a>
+          </ul>
+          <!-- notifications -->
+<span class="
+top-0
+start-100
+translate-middle
+badge
+rounded-pill
+bg-danger">5</span>
+
+          <div
+            class="
+              rounded-circle div4
+              p-1
+              bg-gray
+              d-flex
+              align-items-center
+              justify-content-center
+              mx-2
+            "
+            style="width: 38px; height: 38px"
+            type="button"
+            id="notMenu"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-auto-close="outside"
+          >
+
+            <i class="fas fa-bell"></i>
+                 
+       
+          </div>
+
+          </span>
+         <!-- notifications dd -->
+
+          <ul
+            class="dropdown-menu border-0 shadow p-3"
+            aria-labelledby="notMenu"
+            style="width: 23em; max-height: 600px; overflow-y: auto"
+          >
+
+            <!-- header -->
+            <li class="p-1">
+              <div class="d-flex justify-content-between">
+                <h2 style="color: black;">Notifications</h2>
+                <div>
+                  <i
+                    class="
+                      fas
+                      fa-ellipsis-h
+                      pointer
+                      p-2
+                      rounded-circle
+                      bg-gray
+                    "
+                    type="button"
+                    data-bs-toggle="dropdown"
+                  ></i>
+             
+                  <ul class="dropdown-menu">
+                    <li
+                      class="dropdown-item d-flex align-items-center"
+                      type="button"
+                    >
+                      <i class="fas fa-check me-3 text-muted"></i>
+                      <p class="m-0" style="color: black;">Mark all as read</p>
+                    </li>
+                    <li
+                      class="dropdown-item d-flex align-items-center"
+                      type="button"
+                    >
+                      <i class="fas fa-cog me-3 text-muted"></i>
+                      <p class="m-0" style="color: black;">Privacy Checkup</p>
+                    </li>
+                    <li
+                      class="dropdown-item d-flex align-items-center"
+                      type="button"
+                    >
+                      <i class="fas fa-desktop me-3 text-muted"></i>
+                      <p class="m-0" style="color: black;">Privacy Shortcuts</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-flex" type="button">
+                <p class="rounded-pill bg-gray p-2" style="color: black;">All</p>
+                <p class="ms-3 rounded-pill bg-primary p-2 text-white">
+                  Unread
+                </p>
+              </div>
+            </li>
+            <!-- news -->
+            <div class="d-flex justify-content-between mx-2">
+              <h5 style="color: black;">New</h5>
+              <a href="#" class="text-decoration-none">See All</a>
+            </div>
+            <!-- news 1 -->
+            <li class="my-2 p-1">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-evenly
+                  text-decoration-none text-dark
+                "
+              >
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/1"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum unde amet at nulla quae porro.
+                    </p>
+                    <span class="fs-7 text-primary">about an hour ago</span>
+                  </div>
+                </div>
+                <i class="fas fa-circle fs-7 text-primary"></i>
+              </a>
+            </li>
+            <!-- news 2 -->
+            <li class="my-2 p-1">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-evenly
+                  text-decoration-none text-dark
+                "
+              >
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/2"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum unde amet at nulla quae porro.
+                    </p>
+                    <span class="fs-7 text-primary">about an hour ago</span>
+                  </div>
+                </div>
+                <i class="fas fa-circle fs-7 text-primary"></i>
+              </a>
+            </li>
+            <!-- news 3 -->
+            <li class="my-2 p-1">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-evenly
+                  text-decoration-none text-dark
+                "
+              >
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/3"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum unde amet at nulla quae porro.
+                    </p>
+                    <span class="fs-7 text-primary">about an hour ago</span>
+                  </div>
+                </div>
+                <i class="fas fa-circle fs-7 text-primary"></i>
+              </a>
+            </li>
+            <!-- news 4 -->
+            <li class="my-2 p-1">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-evenly
+                  text-decoration-none text-dark
+                "
+              >
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/4"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum unde amet at nulla quae porro.
+                    </p>
+                    <span class="fs-7 text-primary">about an hour ago</span>
+                  </div>
+                </div>
+                <i class="fas fa-circle fs-7 text-primary"></i>
+              </a>
+            </li>
+            <!-- news 5 -->
+            <li class="my-2 p-1">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-evenly
+                  text-decoration-none text-dark
+                "
+              >
+                <div class="d-flex align-items-center justify-content-evenly">
+                  <div class="p-2">
+                    <img
+                      src="https://source.unsplash.com/random/5"
+                      alt="avatar"
+                      class="rounded-circle"
+                      style="width: 58px; height: 58px; object-fit: cover"
+                    />
+                  </div>
+                  <div>
+                    <p class="fs-7 m-0" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum unde amet at nulla quae porro.
+                    </p>
+                    <span class="fs-7 text-primary">about an hour ago</span>
+                  </div>
+                </div>
+                <i class="fas fa-circle fs-7 text-primary"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- secondary menu -->
+          <div
+            class="
+              rounded-circle div5
+              p-1
+              bg-gray
+              d-flex
+              align-items-center
+              justify-content-center
+              mx-2
+            "
+            style="width: 38px; height: 38px"
+            type="button"
+            id="secondMenu"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-auto-close="outside"
+          >
+          <i class="fas fa-caret-down"></i>
+        </div>
+          <!-- secondary menu dd -->
+          
+          <ul
+            class="dropdown-menu border-0 shadow p-3"
+            aria-labelledby="secondMenu"
+            style="width: 23em"
+          >
+            <!-- avatar -->
+<div id="dark-btn">
+  <span></span>
+</div>
+            <li class="dropdown-item p-1 rounded d-flex" type="button">
+              <img
+             
+              src="image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                alt="avatar"
+                class="rounded-circle me-2"
+                style="width: 45px; height: 45px; object-fit: cover"
+              />
+              <div>
+                <p class="m-0" style="color: black;">Mohamed</p>
+                <p class="m-0 text-muted" style="color: black;">See your profile</p>
+              </div>
+            </li>
+            <hr />
+            <!-- feedback -->
+            <li
+              class="dropdown-item p-1 rounded d-flex align-items-center"
+              type="button"
+            >
+              <i
+                class="fas fa-exclamation-circle bg-gray p-2 rounded-circle"
+              ></i>
+              <div class="ms-3">
+                <p class="m-0" style="color: black;">Give Feedback</p>
+                <p class="m-0 text-muted fs-7" style="color: black;">
+                  Help us improve the new facebook.
+                </p>
+              </div>
+            </li>
+            <hr />
+            <!-- options -->
+            <!-- 1 -->
+            <li class="dropdown-item p-1 my-3 rounded" type="button">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="d-flex" data-bs-toggle="dropdown">
+                    <i class="fas fa-cog bg-gray p-2 rounded-circle"></i>
+                    <div
+                      class="
+                        ms-3
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        w-100
+                      "
+                    >
+                      <p class="m-0" style="color: black;">Settings & Privacy</p>
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
+                  <!-- nested menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle 
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-cog"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Settings</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                          rounded-circle 
+                       
+                          p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                        <i class="fas fa-lock"></i>
+                      </div>
+                        <p class="m-0" style="color: black;">Privacy Checkup</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Privacy Shortcuts</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-list"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Activity Log</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-newspaper"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">News Feed Preferences</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-globe"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Language</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- 2 -->
+            <li class="dropdown-item p-1 my-3 rounded" type="button">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="d-flex" data-bs-toggle="dropdown">
+                    <i
+                      class="
+                        fas
+                        fa-question-circle
+                        bg-gray
+                        p-2
+                        rounded-circle
+                      "
+                    ></i>
+                    <div
+                      class="
+                        ms-3
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        w-100
+                      "
+                    >
+                      <p class="m-0" style="color: black;">Help & Support</p>
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
+                  <!-- nested menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-cog"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Settings</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-lock"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Privacy Checkup</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Privacy Shortcuts</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-list"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Activity Log</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-newspaper"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">News Feed Preferences</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-globe"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Language</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- 3 -->
+            <li class="dropdown-item p-1 my-3 rounded" type="button">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="d-flex" data-bs-toggle="dropdown">
+                    <i class="fas fa-moon bg-gray p-2 rounded-circle"></i>
+                    <div
+                      class="
+                        ms-3
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        w-100
+                      "
+                    >
+                      <p class="m-0" style="color: black;">Display & Accessibility</p>
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
+                  <!-- nested menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-cog"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Settings</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-lock"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Privacy Checkup</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Privacy Shortcuts</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-list"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Activity Log</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-newspaper"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">News Feed Preferences</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-center"
+                        href="#"
+                      >
+                        <div
+                          class="
+                            rounded-circle
+                            p-1
+                            bg-gray
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                            me-2
+                          "
+                          style="width: 38px; height: 38px"
+                        >
+                          <i class="fas fa-globe"></i>
+                        </div>
+                        <p class="m-0" style="color: black;">Language</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- 4 -->
+            <li class="dropdown-item p-1 my-3 rounded" type="button">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                     href="html-css-fb-clone-master/index.html"
+                    class="d-flex text-decoration-none text-dark"
+                  >
+                    <i class="fas fa-cog bg-gray p-2 rounded-circle"></i>
+                    <div
+                      class="
+                        ms-3
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        w-100
+                      "
+                    >
+                      <p class="m-0" style="color: black;">Log Out</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- =============== New Chat Mobile =============== -->
+
+
+
+    <!----------------main-------------------->
+
+    <div class="main">
+
+        <!------------------left------------------->
+
+        <div class="left">
+
+            <div class="img">
+                <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+                <h2>Mohamed Karam</h2>
+            </div>
+
+            <div class="img">
+                <img src="image/friend.png">
+                <h2>Friends</>
+            </div>
+
+            <div class="img">
+                <img src="image/saved.png">
+                <h2>Saved</h2>
+            </div>
+
+            <div class="img">
+                <img src="image/group.png">
+                <h2>Groups</h2>
+            </div>
+
+            <div class="img">
+                <img src="image/marketplace.png">
+                <h2>Marketplace</h2>
+            </div>
+
+            <div class="img">
+                <img src="image/watch.png">
+                <h2>Watch</h2>
+            </div>
+
+            <div class="img">
+                <img src="image/down_arrow.png">
+                <h2>See more</h2>
+            </div>
+
+
+    
+    
+            <hr>
+     
+
+
+
+
+
+
+
+            <h2>You shortcuts</h2>
+            <p  
+
+            class="edit m-0 text-primary me-3 pointer edit-button"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#shortCutModal"
+          
+          
+            >
+            Edit</p>
+
+
+
+
+            <div class="shortcuts">
+                <img src="image/shortcuts_1.png">
+                <h2>MOBILE GAMES</h2>
+            </div>
+            
+            <div class="shortcuts">
+                <img src="image/shortcuts_2.jpeg">
+                <h2>Online Education</h2>
+            </div>
+            
+            <div class="shortcuts">
+                <img src="image/shortcuts_3.webp">
+                <h2>Food Lovers</h2>
+            </div>
+            
+            <div class="shortcuts">
+                <img src="image/shortcuts_4.png">
+                <h2>Social Media Academy</h2>
+            </div>
+            
+            <div class="shortcuts">
+                <img src="image/shortcuts_5.webp">
+                <h2>PC Shop</>
+            </div>
+            
+            <div class="shortcuts">
+                <img src="image/down_arrow.png">
+                <h2>See more</h2>
+            </div>
+            
+            
+            
+            </div>
+            
+        <!------------center---------------------->
+
+        <div class="center">
+
+            <div class="top_box">
+
+                <div class="my_story_card">
+
+                    <img src="image/Snapchat-2055184098.jpg">
+
+                    <div class="story_upload">
+                        <img src="image/upload.png">
+                        <h2 class="story_tag">Create story</h2>
+                    </div>
+
+                </div>
+
+                <div class="story_card ">
+
+                    <img src="image/story_2.jpg">
+
+                    <div class="story_profile">
+
+                        <img src="image/profile_1.jpg">
+                        <div class="cricle"></div>
+                        
+                    </div>
+
+                    <div class="story_name">
+                        <h2 class="name">Charith Disanayaka</h2>
+                    </div>
+
+                </div>
+
+                <div class="story_card">
+
+                    <img src="image/story_3.jpg">
+
+                    <div class="story_profile">
+
+                        <img src="image/profile_2.jpg">
+                        <div class="cricle"></div>
+                        
+                    </div>
+
+                    <div class="story_name">
+                        <p class="name">Minidu Thiranjana</p>
+                    </div>
+
+                </div>
+
+                <div class="story_card">
+
+                    <img src="image/story_4.png">
+
+                    <div class="story_profile">
+
+                        <img src="image/profile_3.jpg">
+                        <div class="cricle"></div>
+                        
+                    </div>
+
+                    <div class="story_name">
+                        <p class="name">Kavisha Vidurangi</p>
+                    </div>
+
+                </div>
+
+                <div class="story_card">
+
+                    <img src="image/story_5.jpg">
+
+                    <div class="story_profile">
+
+                        <img src="image/profile_4.png">
+                        <div class="cricle"></div>
+                        
+                    </div>
+
+                    <div class="story_name" >
+                        <p class="name">Kavindu Akalanka</p>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+
+            <div class=" p-3 mt-3  rounded post">
+              <!-- avatar -->
+              <div class="d-flex button" type="button">
+                <div class="p-1" >
+                  <img
+                    src="./image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                    alt="avatar"
+                    class="rounded-circle me-2"
+                    style="width: 38px; height: 38px; object-fit: cover"
+                  />
+                </div>
+                <input
+                  type="text"
+                  class="form-control rounded-pill border-0 bg-gray pointer"
+                  disabled
+                  placeholder="What's on your mind, Mohamed?"
+                  data-bs-toggle="modal"
+                  data-bs-target="#createModal"
+                />
+              </div>
+              <!-- create modal -->
+              <div
+                class="modal fade"
+                id="createModal"
+                tabindex="-1"
+                aria-labelledby="createModalLabel"
+                aria-hidden="true"
+                data-bs-backdrop="false"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <!-- head -->
+                    <div class="modal-header align-items-center creat-post">
+                      <h5
+                        class=" text-center w-100 m-0" style="color: var(--bg-color3);"
+                        id="exampleModalLabel"
+                      >
+                        Create Post
+                      </h5>
+                      <button 
+                      type="button"
+                      class="btn-close  "
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                    </div>
+                    <!-- body -->
+                    <div class="modal-body  body-post">
+                      <div class="my-1 p-1">
+                        <div class="d-flex flex-column">
+                          <!-- name -->
+                          <div class="d-flex align-items-center">
+                            <div class="p-2">
+                              <img
+                                src="./image/2d2f5e170486c6ca4edd8f3608475c1e.png"
+                                alt="from fb"
+                                class="rounded-circle"
+                                style="
+                                  width: 38px;
+                                  height: 38px;
+                                  object-fit: cover;"/>
+                            </div>
+                            <div>
+                              <p class="m-0 fw-bold" style="color:black ">Mohamed</p>
+                              <select style="color:black";
+                                class="form-select border-0 bg-gray w-75 fs-7"
+                                aria-label="Default select example"
+                              >
+    <option selected value="1"  >Public</option>
+                                <option value="2">Pin To Top</option>
+                                <option value="3">Hide</option>
+                              </select>
+                            </div>
+                          </div>
+                          <!-- text -->
+                          <div>
+                            <textarea  style="background:var(--bg-color)" placeholder="What do you think, Mohamed? "
+                              cols="30"
+                              rows="5"
+                              class="form-control border-0"
+                            ></textarea>
+                          </div>
+                          <!-- emoji  -->
+                          <div 
+                            class="
+                              d-flex
+                              justify-content-between
+                              align-items-center
+                            "
+                          >
+                            <img
+                              src="https://www.facebook.com/images/composer/SATP_Aa_square-2x.png"
+                              class="pointer"
+                              alt="fb text"
+                              style="
+                                width: 30px;
+                                height: 30px;
+                                object-fit: cover;
+                              "
+                            />
+                            <i
+                              class="far fa-laugh-wink fs-5 text-muted pointer"
+                            ></i>
+                          </div>
+                          <!-- options -->
+                          <div
+                            class="
+                              d-flex
+                              justify-content-between
+                              border border-1 border-light
+                              rounded
+                              p-3
+                              mt-3
+                            "
+                          >
+                            <p class="m-0" style="color: var(--bg-color3);">Add to your post</p>
+                            <div>
+                              <i
+                                class="
+                                  fas
+                                  fa-images
+                                  fs-5
+                                  text-success
+                                  pointer
+                                  mx-1
+                                  >
+                                </i>
+                            
+                              <i
+                                class="
+                                  fas
+                                  fa-user-check
+                                  fs-5
+                                  text-primary
+                                  pointer
+                                  mx-1
+                                "
+                                >
+                              </i>
+                              <i
+                                class="
+                                  far
+                                  fa-smile
+                                  fs-5
+                                  text-warning
+                                  pointer
+                                  mx-1
+                                "
+                                >
+                              </i>
+                              <i
+                                class="
+                                  fas
+                                  fa-map-marker-alt
+                                  fs-5
+                                  text-info
+                                  pointer
+                                  mx-1
+                                "
+                              ></i>
+                              <i
+                                class="
+                                  fas
+                                  fa-microphone
+                                  fs-5
+                                  text-danger
+                                  pointer
+                                  mx-1
+                                "
+                              ></i>
+                              <i
+                                class="
+                                  fas
+                                  fa-ellipsis-h
+                                  fs-5
+                                  text-muted
+                                  pointer
+                                  mx-1
+                                "
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- end -->
+                    </div>
+                    <!-- footer -->
+                    <div class="modal-footer" 
+                    style="background:var(--bg-color)">
+                      <button type="button" class="btn btn-primary w-100">
+                      
+                        Post
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <!-- actions -->
+              <div class="d-flex flex-column flex-lg-row mt-3">
+                <!-- a 1 -->
+                <div
+                  class="
+                    dropdown-item
+                    rounded
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  type="button"
+                >
+                  <i class="fas fa-video me-2 text-danger"></i>
+                  <p class="m-0 text-muted">Live Video</p>
+                </div>
+                <!-- a 2 -->
+                <div
+                  class="
+                    dropdown-item
+                    rounded
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  type="button"
+                >
+                  <i class="fas fa-photo-video me-2 text-success"></i>
+                  <p class="m-0 text-muted">Photo/Video</p>
+                </div>
+                <!-- a 3 -->
+                <div
+                  class="
+                    dropdown-item
+                    rounded
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  type="button"
+                >
+                  <i class="fas fa-smile me-2 text-warning"></i>
+                  <p class="m-0 text-muted">Feeling/Activity</p>
+                </div>
+              </div>
+            </div>
+             
+      
+            <div class="room">
+                
+                <div class="room_image">
+
+                    <img src="image/live_video.png">
+                    <p class="room_tag">Create room</p>
+
+                </div>
+
+                <div class="room_profile">
+
+                    <img src="image/profile_1.jpg">
+                    <img src="image/profile_2.jpg">
+                    <img src="image/profile_3.jpg">
+                    <img src="image/profile_4.png">
+                    <img src="image/profile_5.png">
+                    <img src="image/profile_6.png">
+                    <img src="image/profile_7.png">
+                    <img src="image/profile_8.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="friends_post">
+
+                <div class="friend_post_top">
+
+                    <div class="img_and_name">
+
+                      <img src="image/post_1.jpg">
+
+                        <div class="friends_name">
+                            <p class="friends_name">
+                                Senuda De Silva
+                            </p>
+                            <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="menu">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img src="image/post_1.jpg" class="img">
+
+                <div class="info">
+
+                    <div class="emoji_img">
+                        <img src="image/like.png">
+                        <img src="image/haha.png">
+                        <img src="image/heart.png">
+                        <p>You, Charith Disanayaka and 25K others</p>
+                    </div>
+
+                    <div class="comment">
+                        <p>421 Comments</p>
+                        <p>1.3K Shares</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="like">
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-thumbs-up activi"></i>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="comment_warpper">
+
+                    <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+                    <div class="circle"></div>
+
+                    <div class="comment_search">
+
+                        <input type="text" placeholder="Write a comment">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-regular fa-note-sticky"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="friends_post">
+
+                <div class="friend_post_top">
+
+                    <div class="img_and_name">
+
+                        <img src="image/post_1.jpg">
+
+
+
+                        <div class="friends_name">
+                            <p class="friends_name">
+                                Senuda De Silva
+                            </p>
+                            <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="menu">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img src="image/post_2.jpg">
+
+                <div class="info">
+
+                    <div class="emoji_img">
+                        <img src="image/like.png">
+                        <img src="image/haha.png">
+                        <img src="image/heart.png">
+                        <p>You, Charith Disanayaka and 25K others</p>
+                    </div>
+
+                    <div class="comment">
+                        <p>421 Comments</p>
+                        <p>1.3K Shares</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="like">
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-thumbs-up activi"></i>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="comment_warpper">
+
+                    <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+
+                    <div class="circle"></div>
+
+                    <div class="comment_search">
+
+                        <input type="text" placeholder="Write a comment">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-regular fa-note-sticky"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="friends_post">
+
+                <div class="friend_post_top">
+
+                    <div class="img_and_name">
+
+                        <img src="image/post_2.jpg">
+
+
+
+                        <div class="friends_name">
+                            <p class="friends_name">
+                                Senuda De Silva
+                            </p>
+                            <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="menu">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img src="image/post_3.png">
+
+                <div class="info">
+
+                    <div class="emoji_img">
+                        <img src="image/like.png">
+                        <img src="image/haha.png">
+                        <img src="image/heart.png">
+                        <p>You, Charith Disanayaka and 25K others</p>
+                    </div>
+
+                    <div class="comment">
+                        <p>421 Comments</p>
+                        <p>1.3K Shares</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="like">
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-thumbs-up activi"></i>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="comment_warpper">
+
+                    <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+                    <div class="circle"></div>
+
+                    <div class="comment_search">
+
+                        <input type="text" placeholder="Write a comment">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-regular fa-note-sticky"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="friends_post">
+
+                <div class="friend_post_top">
+
+                    <div class="img_and_name">
+
+                        <img src="image/profile_11.png">
+
+                        <div class="friends_name">
+                            <p class="friends_name">
+                                Senuda De Silva
+                            </p>
+                            <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="menu">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img src="image/post_4.jpg">
+
+                <div class="info">
+
+                    <div class="emoji_img">
+                        <img src="image/like.png">
+                        <img src="image/haha.png">
+                        <img src="image/heart.png">
+                        <p>You, Charith Disanayaka and 25K others</p>
+                    </div>
+
+                    <div class="comment">
+                        <p>421 Comments</p>
+                        <p>1.3K Shares</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="like">
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-thumbs-up activi"></i>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="comment_warpper">
+
+                    <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+                    <div class="circle"></div>
+
+                    <div class="comment_search">
+
+                        <input type="text" placeholder="Write a comment">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-regular fa-note-sticky"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="friends_post">
+
+                <div class="friend_post_top">
+
+                    <div class="img_and_name">
+
+                        <img src="image/profile_12.jpg">
+
+                        <div class="friends_name">
+                            <p class="friends_name">
+                                Senuda De Silva
+                            </p>
+                            <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="menu">
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img src="image/post_5.jpg">
+
+                <div class="info">
+
+                    <div class="emoji_img">
+                        <img src="image/like.png">
+                        <img src="image/haha.png">
+                        <img src="image/heart.png">
+                        <p>You, Charith Disanayaka and 25K others</p>
+                    </div>
+
+                    <div class="comment">
+                        <p>421 Comments</p>
+                        <p>1.3K Shares</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="like">
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-thumbs-up activi"></i>
+                        <p>Like</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="comment_warpper">
+
+                    <img src="image/2d2f5e170486c6ca4edd8f3608475c1e.png">
+                    <div class="circle"></div>
+
+                    <div class="comment_search">
+
+                        <input type="text" placeholder="Write a comment">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-regular fa-note-sticky"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="loard">
+                <button>Loard More</button>
+            </div>
+
+            <p class="end">Design By<span><i class="fa-regular fa-face-grin"></i>
+            MK Master Code</span></p>
+
+
+        </div>
+
+        <!------------------right------------------>
+
+        <div class="right">
+            
+            <div class="first_warpper">
+
+                <div class="page">
+
+                    <h2>Your Pages and profiles</h2>
+                    <div class="menu">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                </div>
+
+                <div class="page_img">
+                    <img src="image/page.jpg">
+                    <h6>Web Designer</h6>
+                </div>
+
+                <div class="page_icon">
+                    <i class="fa-regular fa-bell"></i>
+                    <p>20 Notifications</p>
+                </div>
+
+                <div class="page_icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <p>Create promotion</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="second_warpper">
+
+                <h2>Birthdays</h2>
+
+                <div class="img_and_tag">
+
+                    <img src="image/gift.png">
+                    <p><and>Senuda De Silva and 2 others have birthdays today</p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+
+            <div class="third_warpper">
+
+                <div class="contact_tag">
+
+                    <h2>Contacts</h2>
+
+                    <div class="contact_icon" style="color: var(--bg-color3);">
+
+                      <i class="fa-solid fa-video"></i>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/contact_1.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/contact_2.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/contact_3.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/contact_4.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/contact_5.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_1.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_2.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_3.jpg">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_4.png">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_5.png">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_6.png">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+                <div class="contact">
+
+                    <img src="image/profile_7.png">
+                    <p>Senuda De Silva</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+<script src="main.js"></script>
+  </body>
+</html>
